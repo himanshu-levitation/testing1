@@ -14,9 +14,24 @@ const albertSans = Albert_Sans({
 });
 
 export const metadata = {
-  title: "Hiring Platform",
-  description: "Automated hiring platform for job seekers and employers",
-  generator: "v0.dev",
+  title: "Feedback Management System | GOG Platform",
+  description: "Comprehensive feedback management system for collecting, tracking, and resolving user feedback with file attachments and status management.",
+  keywords: "feedback management, user feedback, bug reports, feature requests, customer support, feedback tracking",
+  authors: [{ name: "GOG Team" }],
+  creator: "GOG Platform",
+  publisher: "GOG Platform",
+  robots: "index, follow",
+  openGraph: {
+    title: "Feedback Management System | GOG Platform",
+    description: "Streamline your feedback collection and management process with our comprehensive platform.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Feedback Management System | GOG Platform",
+    description: "Comprehensive feedback management system for collecting and tracking user feedback.",
+  },
 };
 
 interface RootLayoutProps {
