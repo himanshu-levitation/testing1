@@ -30,7 +30,8 @@
     },
     "jsx": "preserve",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
   },
   "include": [
     "next-env.d.ts",

@@ -40,7 +40,7 @@
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/tailwindcss__typography": "^0.5.6",
+
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",

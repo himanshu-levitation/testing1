@@ -19,8 +19,8 @@ export const useSubmissions = () => {
   return useQuery({
     queryKey: ['submissions'],
     queryFn: fetchSubmissions,
-    staleTime: 2 * 60 * 1000, // 2 minutes
-    gcTime: 10 * 60 * 1000, // 10 minutes (renamed from cacheTime in v5)
+    staleTime: 2 * 60 * 1000,
+    gcTime: 10 * 60 * 1000, 
     refetchOnWindowFocus: false,
     refetchOnMount: false,
     retry: 2,
